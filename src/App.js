@@ -57,8 +57,7 @@ class App extends React.Component {
     categoriesRef
       .doc(item.id).set({
         name: item.name,
-        detail: item.detail,
-        status: item.status
+        detail: item.detail
       });
 
     this.buildList(newList)
@@ -73,8 +72,7 @@ class App extends React.Component {
         categoriesRef
           .doc(item.id).update({
             name: item.name,
-            detail: item.detail,
-            status: item.status
+            detail: item.detail
           })
           .then(function () {
             console.log("Successfully updated!");

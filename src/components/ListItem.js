@@ -17,7 +17,7 @@ class ListItem extends React.Component {
 
   toggle = (ev) => {
     let item = { ...this.state }
-    item.status = (item.status === 'read') ? 'edit' : 'read'
+    item.status = (item.status === 'edit') ? 'read' : 'edit'
     this.setState({ ...item })
   }
 
@@ -48,7 +48,11 @@ class ListItem extends React.Component {
 
   render() {
     return (
-      (this.state.status === 'read') ?
+      (this.state.status === 'edit') ?
+      <Col sm='6'>
+          <FormDetail item={this.state} handleCancel={this.handleCancel} handleFormSubmit={this.handleFormSubmit} />
+        </Col>
+        :
         <Col sm='6'>
           <Card>
             <CardBody>
@@ -61,10 +65,7 @@ class ListItem extends React.Component {
             </CardBody>
           </Card>
         </Col>
-        :
-        <Col sm='6'>
-          <FormDetail item={this.state} handleCancel={this.handleCancel} handleFormSubmit={this.handleFormSubmit} />
-        </Col>
+        
     )
   }
 }
