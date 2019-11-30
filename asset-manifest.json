@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mad9135-h5-react-firebase/static/css/main.5383d62e.chunk.css",
-    "main.js": "/mad9135-h5-react-firebase/static/js/main.97fa98f6.chunk.js",
-    "main.js.map": "/mad9135-h5-react-firebase/static/js/main.97fa98f6.chunk.js.map",
+    "main.js": "/mad9135-h5-react-firebase/static/js/main.08e6f99c.chunk.js",
+    "main.js.map": "/mad9135-h5-react-firebase/static/js/main.08e6f99c.chunk.js.map",
     "runtime-main.js": "/mad9135-h5-react-firebase/static/js/runtime-main.6448044b.js",
     "runtime-main.js.map": "/mad9135-h5-react-firebase/static/js/runtime-main.6448044b.js.map",
     "static/css/2.266e55a5.chunk.css": "/mad9135-h5-react-firebase/static/css/2.266e55a5.chunk.css",
     "static/js/2.445554ab.chunk.js": "/mad9135-h5-react-firebase/static/js/2.445554ab.chunk.js",
     "static/js/2.445554ab.chunk.js.map": "/mad9135-h5-react-firebase/static/js/2.445554ab.chunk.js.map",
     "index.html": "/mad9135-h5-react-firebase/index.html",
-    "precache-manifest.f47636d156c442d6a515b966e36d0871.js": "/mad9135-h5-react-firebase/precache-manifest.f47636d156c442d6a515b966e36d0871.js",
+    "precache-manifest.23eb7b4f5ed022875c9b752927647010.js": "/mad9135-h5-react-firebase/precache-manifest.23eb7b4f5ed022875c9b752927647010.js",
     "service-worker.js": "/mad9135-h5-react-firebase/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/mad9135-h5-react-firebase/static/css/2.266e55a5.chunk.css.map",
     "static/css/main.5383d62e.chunk.css.map": "/mad9135-h5-react-firebase/static/css/main.5383d62e.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.266e55a5.chunk.css",
     "static/js/2.445554ab.chunk.js",
     "static/css/main.5383d62e.chunk.css",
-    "static/js/main.97fa98f6.chunk.js"
+    "static/js/main.08e6f99c.chunk.js"
   ]
 }
